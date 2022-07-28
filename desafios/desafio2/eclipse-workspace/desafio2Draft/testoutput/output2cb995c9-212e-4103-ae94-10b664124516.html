@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>SINUSOIDU</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <div id='target' ></div>
+        <script>
+        var target_target = document.getElementById('target');
+        var layout = {
+    title: 'SINUSOIDU',
+    height: 600,
+    width: 800,
+    xaxis: {
+    title: 'Tempo',
+    },
+
+    yaxis: {
+    title: 'Magnitude []',
+    },
+
+};
+
+var trace0 =
+{
+x: ["2022-03-03T15:35:45","2022-03-03T16:47:15","2022-03-03T19:33:15","2022-03-03T20:39:15","2022-03-03T21:44:15","2022-03-03T22:57:45","2022-03-04T01:31:15","2022-03-04T02:31:15","2022-03-04T03:31:15","2022-03-04T04:40:45","2022-03-04T07:33:15","2022-03-04T08:36:45","2022-03-04T09:35:45","2022-03-04T10:47:15","2022-03-04T13:33:15","2022-03-04T14:39:15","2022-03-04T15:44:15","2022-03-04T16:57:45"],
+y: ["97.58653","79.653694","13.656588","0.817578","3.6815932","24.154205","85.73887","98.43456","98.152275","81.88809","13.656399","1.0256687","2.4135113","20.34642","86.343506","99.18245","96.31835","75.84568"],
+mode: 'lines',
+xaxis: 'x',
+yaxis: 'y',
+type: 'scatter',
+name: '',
+};
+
+        var data = [ trace0];
+Plotly.newPlot(target_target, data, layout);            </script>
+
+</body>
+</html>

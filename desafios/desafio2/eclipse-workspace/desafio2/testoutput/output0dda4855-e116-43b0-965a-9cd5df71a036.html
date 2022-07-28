@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>CDEP158</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <div id='target' ></div>
+        <script>
+        var target_target = document.getElementById('target');
+        var layout = {
+    title: 'CDEP158',
+    height: 600,
+    width: 800,
+    xaxis: {
+    title: 'Tempo',
+    },
+
+    yaxis: {
+    title: 'Magnitude [-]',
+    },
+
+};
+
+var trace0 =
+{
+x: ["2022-03-03T15:48:15","2022-03-03T16:52:15","2022-03-03T18:16:15","2022-03-03T19:25:45","2022-03-03T20:45:45","2022-03-03T21:38:15","2022-03-03T23:24:45","2022-03-04T01:18:45","2022-03-04T03:47:45","2022-03-04T04:40:45","2022-03-04T06:25:45","2022-03-04T07:46:45","2022-03-04T08:44:45","2022-03-04T11:20:15","2022-03-04T13:01:45","2022-03-04T13:24:15","2022-03-04T14:17:15","2022-03-04T15:58:15","2022-03-04T16:43:15"],
+y: ["143.0","136.0","155.0","140.0","136.0","110.0","131.0","162.0","156.0","166.0","150.0","156.0","159.0","145.0","122.0","113.0","116.0","116.0","111.0"],
+mode: 'lines',
+xaxis: 'x',
+yaxis: 'y',
+type: 'scatter',
+name: '',
+};
+
+        var data = [ trace0];
+Plotly.newPlot(target_target, data, layout);            </script>
+
+</body>
+</html>
