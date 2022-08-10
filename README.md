@@ -31,17 +31,17 @@
 
 ### Tópicos:
 
-- [01. O que é Git?](Git%20&%20Github/01%20O%20que%20e%CC%81%20Git.md)
+- [01. O que é Git?](tools/Git%20&%20Github/01%20O%20que%20e%CC%81%20Git.md)
 
-- [02. Iniciando os trabalhos](Git%20&%20Github/02%20Iniciando%20os%20trabalhos.md)
+- [02. Iniciando os trabalhos](tools/Git%20&%20Github/02%20Iniciando%20os%20trabalhos.md)
 
-- [03. Compartilhando o trabalho](Git%20&%20Github/03%20Compartilhando%20o%20trabalho.md)
+- [03. Compartilhando o trabalho](tools/Git%20&%20Github/03%20Compartilhando%20o%20trabalho.md)
 
-- [04. Trabalhando em equipe](Git%20&%20Github/04%20Trabalhando%20em%20equipe.md)
+- [04. Trabalhando em equipe](tools/Git%20&%20Github/04%20Trabalhando%20em%20equipe.md)
 
-- [05. Manipulando as versões](Git%20&%20Github/05%20Manipulando%20as%20verso%CC%83es.md)
+- [05. Manipulando as versões](tools/Git%20&%20Github/05%20Manipulando%20as%20verso%CC%83es.md)
 
-- [06. Gerando entregas](Git%20&%20Github/06%20Gerando%20entregas.md)
+- [06. Gerando entregas](tools/Git%20&%20Github/06%20Gerando%20entregas.md)
 
 ## ****Estratégias de ramificação, Conflitos e Pull Requests****
 
